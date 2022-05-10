@@ -1,0 +1,101 @@
+@-ms-viewport {
+    width: device-width;
+}
+
+html,
+body {
+    margin: 0;
+}
+
+body {
+    background: url(https://cdn.weartesters.com/wp-content/uploads/2017/11/dwyane-johnson-project-rock-USDNA-collection-under-armour-4.jpeg) no-repeat center fixed;
+}
+
+body p {
+    text-align: center;
+    color: whitesmoke;
+}
+
+h1 {
+    text-align: center;
+    -webkit-text-stroke: 1px maroon;
+    color: goldenrod;
+    text-shadow: 3px 3px 0 #000, -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+}
+
+iframe {
+    display: block;
+    margin: 0 auto;
+    border-style: solid;
+    border-width: 5px;
+    border-color: maroon;
+    border-radius: 10px;
+}
+
+#navigation {
+    display: block;
+    margin-left: 130px;
+    text-align: right;
+    margin-top: 20px;
+}
+
+#header {
+    height: 100px;
+    width: 100%;
+    position: fixed;
+    top: 0px;
+    overflow: hidden;
+    background-color: darkgrey;
+    border-bottom: 2px solid black;
+}
+
+.bullsymbol #top img {
+    float: left;
+    overflow: hidden;
+    padding: 0;
+    line-height: 100px;
+    height: 100px;
+}
+
+#mainnav li {
+    float: right;
+    display: inline-block;
+    font-size: 20px;
+    margin: 15px;
+}
+
+#mainnav li a {
+    color: white;
+    text-decoration: none;
+}
+
+#mainnav li a:hover {
+    background-color: white;
+    color: maroon;
+}
+
+.header a.active {
+    float: right;
+}
+
+.double-space {
+    height: 120px;
+}
+
+@media screen and (max-width: 500px) {
+    .header a {
+        float: none;
+        display: block;
+        text-align: left;
+    }
+    .header-right {
+        float: none;
+    }
+}
+
+.centered-wrapper {
+    margin: 0 auto;
+    text-align: center;
+    max-width: 100%;
+    overflow: hidden;
+}
